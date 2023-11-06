@@ -8,12 +8,6 @@ github:
     branch: ^prod$
 substitutions:
   _REGION: us-central1
-  _APP_NAME: ivt-web-service
+  _APP_NAME: martinomedia
   _BRANCH_NAME: prod
-  _API_KEY: AIzaSyAw6PaKp9TCY_zOgsY-zApvm9yndmMP2hw
-  _AUTH_DOMAIN: ivt-project-prod.firebaseapp.com
-  _PROJECT_ID: ivt-project-prod
-  _STORAGE_BUCKET: ivt-project-prod.appspot.com
-  _MESSAGING_SENDER_ID: '619456413815'
-  _APP_ID: 1:19456413815:web:10722b60fb947f68187672
-  _API_ENDPOINT: 'https://ivt-project-prod.uk.r.appspot.com/api/v1'
+ 

@@ -3,17 +3,11 @@ description: Trigger dev build/deploy
 filename: cloudbuild.yaml
 github:
   owner: josepholiverr
-  name: deepshot 
+  name: martinomedia 
   push:
-    branch: ^dev$
+    branch: ^prod$
 substitutions:
   _REGION: us-central1
-  _APP_NAME: ivt-web-service
-  _BRANCH_NAME: dev
-  _API_KEY: AIzaSyAtoZ30IiOuAhhf_lg9WinJLE3O-_T5TCU
-  _AUTH_DOMAIN: ivt-project-staging.firebaseapp.com
-  _PROJECT_ID: ivt-project-staging
-  _STORAGE_BUCKET: ivt-project-staging.appspot.com
-  _MESSAGING_SENDER_ID: '638959340573'
-  _APP_ID: 1:638959340573:web:b2288f2ff05d09d036caf4
-  _API_ENDPOINT: 'https://ivt-project-staging.uk.r.appspot.com/api/v1'
+  _APP_NAME: martinomedia
+  _BRANCH_NAME: prod
+
