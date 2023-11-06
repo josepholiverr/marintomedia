@@ -63,6 +63,7 @@ ENV NODE_ENV production
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
 
+COPY server.js ./server.js
 
 USER nextjs
 
