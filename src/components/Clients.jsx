@@ -11,7 +11,7 @@ import Client04 from "@/images/client-04.svg"
 import Client05 from "@/images/client-05.svg"
 import Client06 from "@/images/client-06.svg"
 import Client07 from "@/images/client-07.svg"
-import Client08 from "@/images/client-08.svg"
+
 import Client09 from "@/images/client-09.svg"
 import Client10 from "@/images/client-10.png"
 
@@ -22,7 +22,7 @@ Swiper.use([Autoplay])
 
 export function Clients() {
   useEffect(() => {
-    const carousel = new Swiper(".clients-carousel", {
+   new Swiper(".clients-carousel", {
       slidesPerView: "auto",
       spaceBetween: 64,
       centeredSlides: true,

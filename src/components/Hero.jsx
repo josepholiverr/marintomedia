@@ -1,5 +1,4 @@
 import Image from "next/image"
-import {Clients } from "@/components/Clients"
 import { SectionWrapper } from "@/components/Section"
 
 import appImage from "@/images/app.png"

@@ -2,75 +2,7 @@ import { SectionWrapper } from "./Section"
 import { Logo } from "./Logo"
 import { YouTubeIcon, XIcon, TikTokIcon } from "./Icons"
 
-const sections = [
-  {
-    title: "Products",
-    items: [
-      {
-        title: "Getting started",
-        url: "#",
-      },
-      {
-        title: "Use cases",
-        url: "#",
-      },
-      {
-        title: "API reference",
-        url: "#",
-      },
-      {
-        title: "Examples",
-        url: "#",
-      },
-      {
-        title: "FAQ",
-        url: "#",
-      },
-    ],
-  },
-  {
-    title: "Tools",
-    items: [
-      {
-        title: "Invoice AI Scanner",
-        url: "#",
-      },
-      {
-        title: "Bank statement analyzer",
-        url: "#",
-      },
-      {
-        title: "Merge PDFs",
-        url: "#",
-      },
-      {
-        title: "PDF to HTML",
-        url: "#",
-      },
-    ],
-  },
-  {
-    title: "Resources",
-    items: [
-      {
-        title: "Affiliate program",
-        url: "#",
-      },
-      {
-        title: "Privacy policy",
-        url: "#",
-      },
-      {
-        title: "Company",
-        url: "#",
-      },
-      {
-        title: "Terms of service",
-        url: "#",
-      },
-    ],
-  },
-]
+
 
 const icons = [
   {
