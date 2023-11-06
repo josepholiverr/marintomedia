@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56">
+  <defs>
+    <radialGradient id="b" cx="48.744%" cy="50.721%" r="34.598%" fx="48.744%" fy="50.721%">
+      <stop offset="0%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#F1F5F9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="a" x1="50%" x2="50%" y1="100%" y2="0%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#94A3B8" stop-opacity=".601"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <circle cx="28" cy="28" r="28" fill="url(#a)"/>
+    <circle cx="28" cy="28" r="27" fill="#1E293B"/>
+    <circle cx="28" cy="28" r="27" fill="url(#b)" opacity=".079"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#E2E8F0" x="13" y="13" width="30" height="30">
+  <path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 013.5 2h9A1.5 1.5 0 0114 3.5v11.75A2.75 2.75 0 0016.75 18h-12A2.75 2.75 0 012 15.25V3.5zm3.75 7a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zm0 3a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM5 5.75A.75.75 0 015.75 5h4.5a.75.75 0 01.75.75v2.5a.75.75 0 01-.75.75h-4.5A.75.75 0 015 8.25v-2.5z" clip-rule="evenodd" />
+  <path d="M16.5 6.5h-1v8.75a1.25 1.25 0 102.5 0V8a1.5 1.5 0 00-1.5-1.5z" />
+</svg>
+
+
+
+  </g>
+</svg>
