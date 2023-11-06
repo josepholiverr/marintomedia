@@ -13,7 +13,7 @@ import CarouselImg05 from "../app/images/carousel-icon-05.svg"
 import CarouselImg06 from "../app/images/carousel-icon-06.svg"
 
 
-import { SectionWrapper, SectionBadge, SectionHeadingHighlighted, SectionTitleSmall } from "./Section"
+import { SectionBadge, SectionHeadingHighlighted, SectionTitleSmall } from "./Section"
 // Import Swiper
 import Swiper, { Navigation } from "swiper"
 import 'swiper/swiper.min.css'
@@ -23,7 +23,7 @@ export function ExtraFeatures() {
   const [swiperInitialized, setSwiperInitialized] = useState(false)
 
   useEffect(() => {
-    const carousel = new Swiper(".testimonials-carousel", {
+   new Swiper(".testimonials-carousel", {
       breakpoints: {
         320: {
           slidesPerView: 1
@@ -96,7 +96,7 @@ export function ExtraFeatures() {
                           Instagram Network
                         </div>
                         <div className="text-slate-400 mb-3">
-                        Harness the power of Instagram as your marketing agency's dynamic platform for targeted brand growth.
+                        Harness the power of Instagram as your marketing agency&apos;s dynamic platform for targeted brand growth.
                                                 </div>
                       </div>
 
@@ -131,7 +131,7 @@ export function ExtraFeatures() {
                          Instagram & Facebook Ads
                         </div>
                         <div className="text-slate-400 mb-3">
-                        Elevate your brand's reach and impact through expert Instagram and Facebook paid marketing strategies.</div>
+                        Elevate your brand&apos;s reach and impact through expert Instagram and Facebook paid marketing strategies.</div>
                       </div>
 
                     </div>
@@ -201,7 +201,7 @@ export function ExtraFeatures() {
                           Google SEO
                         </div>
                         <div className="text-slate-400 mb-3">
-                        Unlocking your brand's potential, we optimize with Google SEO expertise, ensuring top-tier visibility.
+                        Unlocking your brand&apos;s potential, we optimize with Google SEO expertise, ensuring top-tier visibility.
                         </div>
                       </div>
 
@@ -271,7 +271,7 @@ export function ExtraFeatures() {
                           YouTube
                         </div>
                         <div className="text-slate-400 mb-3">
-                        Transform viewers into customers by leveraging YouTube's power for impactful marketing success.
+                        Transform viewers into customers by leveraging YouTube&apos;s power for impactful marketing success.
                                                                         </div>
                       </div>
 

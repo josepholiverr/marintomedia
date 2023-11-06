@@ -3,10 +3,10 @@
 import clsx from "clsx"
 import {
   ChatBubbleLeftRightIcon,
-  ClipboardDocumentCheckIcon,
-  DocumentIcon,
+
+
   DocumentTextIcon,
-  UserIcon,
+
 } from "@heroicons/react/24/outline"
 
 import {

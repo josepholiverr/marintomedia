@@ -6,7 +6,7 @@ import {
   SectionHeadingHighlighted,
   SectionTitle,
   SectionTitleFade,
-  SectionDescription,
+
 } from "./Section"
 import { SpotlightCard } from "./SpotlightCard"
 

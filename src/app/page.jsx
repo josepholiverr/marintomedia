@@ -4,8 +4,6 @@ import { PrimaryFeatures } from "@/components/PrimaryFeatures"
 import { SecondaryFeatures } from "@/components/SecondaryFeatures"
 import { ExtraFeatures } from "@/components/ExtraFeatures"
 import { Testimonials } from "@/components/Testimonials"
-import { Faq } from "@/components/Faq"
-import { Pricing } from "@/components/Pricing"
 import { Footer } from "@/components/Footer"
 import {Clients} from "@/components/Clients"
 export const metadata = {
