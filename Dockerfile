@@ -66,7 +66,7 @@ ENV NODE_ENV production
 
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
-
+COPY --from=builder /app/node_modules ./node_modules
 COPY server.js ./server.js
 # Add logging to verify that the server.js file is in the correct location
 RUN echo "Checking if server.js is present:" && ls -l server.js
