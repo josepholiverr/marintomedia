@@ -39,6 +39,10 @@ RUN \
 FROM base AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
+
+RUN echo "Listing node_modules in builder stage:" && ls node_modules
+
+
 COPY src/ .
 COPY . .
 
@@ -64,6 +68,11 @@ RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
 
 COPY server.js ./server.js
+# Add logging to verify that the server.js file is in the correct location
+RUN echo "Checking if server.js is present:" && ls -l server.js
+
+# Add logging to verify node_modules in the final stage
+RUN echo "Listing node_modules in runner stage:" && ls node_modules
 
 USER nextjs
 
