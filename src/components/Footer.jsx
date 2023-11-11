@@ -1,25 +1,16 @@
 import { SectionWrapper } from "./Section"
 import { Logo } from "./Logo"
-import { YouTubeIcon, XIcon, TikTokIcon } from "./Icons"
+import { YouTubeIcon, XIcon, TikTokIcon, InstagramIcon } from "./Icons"
 
 
 
 const icons = [
   {
-    component: YouTubeIcon,
-    name: "YouTube",
-    url: "#",
+    component: InstagramIcon,
+    name: "Instagram",
+    url: "https://www.instagram.com/martinobuzz",
   },
-  {
-    component: XIcon,
-    name: "X / Twitter",
-    url: "#",
-  },
-  {
-    component: TikTokIcon,
-    name: "TikTok",
-    url: "#",
-  },
+  
 ]
 
 export function Footer() {
