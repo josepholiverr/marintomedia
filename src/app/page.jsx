@@ -3,7 +3,7 @@ import { Hero } from "@/components/Hero"
 import { PrimaryFeatures } from "@/components/PrimaryFeatures"
 import { SecondaryFeatures } from "@/components/SecondaryFeatures"
 import { ExtraFeatures } from "@/components/ExtraFeatures"
-import { Testimonials } from "@/components/Testimonials"
+// import { Testimonials } from "@/components/Testimonials"
 import { Footer } from "@/components/Footer"
 import {Clients} from "@/components/Clients"
 export const metadata = {

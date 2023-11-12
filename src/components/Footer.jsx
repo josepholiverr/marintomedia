@@ -1,6 +1,6 @@
 import { SectionWrapper } from "./Section"
 import { Logo } from "./Logo"
-import { YouTubeIcon, XIcon, TikTokIcon, InstagramIcon } from "./Icons"
+import {InstagramIcon } from "./Icons"
 
 
 
