@@ -7,8 +7,8 @@ import { ExtraFeatures } from "@/components/ExtraFeatures"
 import { Footer } from "@/components/Footer"
 import {Clients} from "@/components/Clients"
 export const metadata = {
-  title: "Recharger — Tailwind CSS Landing page Template",
-  description: "A beautifully crafted landing page template for your next SaaS.",
+  title: "Martino Media — Take your ads to the next level",
+  description: "tbd meta description",
 }
 
 export default function Home() {
