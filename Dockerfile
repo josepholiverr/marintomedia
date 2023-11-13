@@ -66,15 +66,8 @@ ENV NODE_ENV production
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
 COPY --from=builder /app/next.config.js ./next.config.js
-COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/node_modules ./node_modules
-
-# Add logging to verify that the server.js file is in the correct location
-RUN echo "Checking if server.js is present:" && ls -l server.js
-
-# Add logging to verify node_modules in the final stage
-RUN echo "Listing node_modules in runner stage:" && ls node_modules
 
 USER nextjs
 
