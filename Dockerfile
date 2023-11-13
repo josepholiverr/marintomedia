@@ -40,7 +40,6 @@ FROM base AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 
-RUN echo "Listing node_modules in builder stage:" && ls node_modules
 
 
 COPY src/ .
@@ -66,8 +65,11 @@ ENV NODE_ENV production
 
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
+COPY --from=builder /app/next.config.js ./next.config.js
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/node_modules ./node_modules
-COPY server.js ./server.js
+
 # Add logging to verify that the server.js file is in the correct location
 RUN echo "Checking if server.js is present:" && ls -l server.js
 
@@ -80,4 +82,4 @@ EXPOSE 3000
 
 ENV PORT 3000
 
-CMD ["node", "server.js"]
+CMD ["npm", "run", "start"]
